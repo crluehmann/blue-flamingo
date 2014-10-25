@@ -1,5 +1,5 @@
-application: nimbus    #.appspot.com
-version: v1
+application: blue-flamingo    #.appspot.com
+version: 1
 
 runtime: python27
 api_version: 1

@@ -4,7 +4,7 @@ from ferris import Controller, scaffold
 from ferris.components import oauth
 from apiclient.discovery import build
 
-class Inventory(Controller):
+class InventoryObjects(Controller):
     class Meta:
         prefixes     = ('viewer','editor',)
         components   = (scaffold.Scaffolding,oauth.OAuth) # This is how we OAuth2

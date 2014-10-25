@@ -3,7 +3,7 @@ __author__ = 'Chef'
 from ferris import BasicModel
 from google.appengine.ext import ndb
 
-class Inventory (BasicModel):
+class InventoryObject (BasicModel):
     isActive       = ndb.BooleanProperty()
     type           = ndb.StringProperty()
     item           = ndb.StringProperty()
