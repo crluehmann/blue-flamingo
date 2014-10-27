@@ -16,4 +16,7 @@ class InventoryObjects(Controller):
 #    def list(self):
 #        return "Nonsense from the controller goes here"
 
-    list = scaffold.list
+    list   = scaffold.list
+    add    = scaffold.add
+    edit   = scaffold.edit
+    delete = scaffold.delete
